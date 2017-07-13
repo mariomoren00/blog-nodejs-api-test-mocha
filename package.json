@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/mariomoren00/test-api-mocha#readme",
   "scripts": {
-    "test": "nodemon libs/app.js --exec babel-node --presets es2015,stage-2",
+    "test": "mocha --timeout 10000",
     "production": "nodemon libs/app.js --exec babel-node --presets es2015,stage-2",
     "release": "babel-node dist/app.js",
     "start": "nodemon libs/app.js --exec babel-node"
