@@ -24,7 +24,7 @@
          it('Should return 201 status code and location header', function(done){
 
              let user = {
-                            name: "Julian duque",
+                            name: "Julian Mons",
                             email: "email@gmail.com",
                             password: "123456"
                           }
